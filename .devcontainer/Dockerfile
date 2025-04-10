@@ -1,5 +1,5 @@
 # Image de base avec Python 3.11
-FROM python:3.11.12-slim
+FROM python:3.11-slim
 
 # Eviter les interactions durant apt install
 ENV DEBIAN_FRONTEND=noninteractive
