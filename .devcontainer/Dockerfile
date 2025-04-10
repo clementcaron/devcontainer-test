@@ -1,5 +1,5 @@
-# Image de base avec Python 3.11
-FROM python:3.11-slim
+# Image de base avec Python 3.11 (test avec microsoft devcontainers)
+FROM mcr.microsoft.com/devcontainers/python:1-3.11-bookworm
 
 # Eviter les interactions durant apt install
 ENV DEBIAN_FRONTEND=noninteractive
